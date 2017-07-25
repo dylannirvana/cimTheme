@@ -1,0 +1,52 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-primary {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #f77;
+  border: .05rem solid #fff;
+
+  &.btn-primary:hover,
+  &.btn-primary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #333;
+  }
+}
+
+.btn-secondary {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #333;
+
+  &.btn-secondary:hover,
+  &.btn-secondary:focus {
+    color: #fff;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #333;
+    border: .05rem solid #fff;
+  }
+}
+
+
+/*
+* Base structure
+*/
+
+.site-white {
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}

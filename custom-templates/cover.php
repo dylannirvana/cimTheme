@@ -1,7 +1,5 @@
 <div id="cover" class="site-wrapper">
-
   <div class="site-wrapper-inner">
-
     <div class="cover-container">
 
       <!-- <div class="masthead clearfix">
@@ -23,14 +21,19 @@
         </p>
       </div>
 
+      <!--  VIDEO -->
+      <!-- <div class="video-container"> -->
+        <video poster autoplay loop muted class="video" >
+          <source src="<?php echo get_template_directory_uri();?>/img/beard.mp4" type="video/mp4" />
+          </video>
+        <!-- </div> -->
+
       <div class="mastfoot">
         <div class="inner">
-          <p>Cover template for <a href="https://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+          <p>Cover template for <a href="http://causeinpiredmedia.com/">Cause Inspired Media</a>, by <a href="http://www.davidbowie.com/">Dylan Nirvana</a>.</p>
         </div>
       </div>
 
-    </div>
-
-  </div>
-
-</div>
+    </div> <!-- END cover-container -->
+  </div> <!-- END site-wrapper-inner -->
+</div> <!-- END site-wrapper -->

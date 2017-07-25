@@ -1,9 +1,5 @@
 <!-- ALBUM -->
-	<div id="album" class="album text-muted">
-    <div class="container">
-
-<!- TK create pages manually -->
-<!-- Meanwhile, to use this template, you must create 'album' PAGE and POSTS -->
+	<div id="album" class="scene">
 
 <!-- WP-Query ties in PAGE with album slug -->
 			<?php
@@ -12,19 +8,25 @@
 					while ( $query->have_posts() ) {
 						$query->the_post();
 
-						echo '<div>';
-						echo '<h3>';
+						echo '<section class="jumbotron text-center">';
+						echo '<div class="container">';
+						echo '<h1 class="jumbotron-heading">';
 						the_title();
-						echo '</h3>';
-						echo '<p>';
+						echo '</h1>';
+						echo '<p lead text-muted>';
 						the_content();
 						echo '</p>';
+						echo '<p><a href="#" class="btn btn-primary">Main call to action</a></p>';
 						echo '</div>';
+						echo '</section>';
 					}
 				}
 				wp_reset_postdata();
 			?>
 <!-- END WP_Query -->
+
+<div class="album text-muted">
+	<div class="container">
 
 			<div class="row">
 <!-- WP-Query ties in POSTS with album category -->
@@ -34,11 +36,11 @@
 					while ( $query->have_posts() ) {
 						$query->the_post();
 
-						echo '<div class="card">';
+						echo '<div class="card col-sm-6 col-md-4">';
 						the_post_thumbnail();
-						echo '<h6 class="card-title">';
+						echo '<h3 class="card-title">';
 						the_title();
-						echo '</h6>';
+						echo '</h3>';
 						echo '<p class="card-text">';
 						the_content();
 						echo '</p>';
@@ -58,3 +60,4 @@
       </div> <!-- END row -->
     </div> <!-- END container -->
   </div> <!-- END album -->
+</div> <!-- END scene -->

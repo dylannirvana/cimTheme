@@ -13,7 +13,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_sidebar( 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer">
+<div class="wrapper footer bg-inverse" id="wrapper-footer">
+
+	<div class="" id="navbarHeader">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 py-4">
+					<h4 class="text-white">About</h4>
+					<p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+				</div>
+				<div class="col-sm-4 py-4">
+					<h4 class="text-white">Contact</h4>
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-white">Follow on Twitter</a></li>
+						<li><a href="#" class="text-white">Like on Facebook</a></li>
+						<li><a href="#" class="text-white">Email me</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div class="<?php echo esc_html( $container ); ?>">
 
@@ -25,15 +44,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info">
 
-							<a href="<?php  echo esc_url( __( 'http://wordpress.org/','understrap' ) ); ?>"><?php printf( 
+							<a href="<?php  echo esc_url( __( 'http://www.davidbowie.com/','understrap' ) ); ?>"><?php printf(
 							/* translators:*/
-							esc_html__( 'Proudly powered by %s', 'understrap' ),'WordPress' ); ?></a>
+							esc_html__( 'Proudly powered by %s', 'cimTheme' ),'Dylan Nirvana' ); ?></a>
 								<span class="sep"> | </span>
-					
+
 							<?php printf( // WPCS: XSS ok.
 							/* translators:*/
-								esc_html__( 'Theme: %1$s by %2$s.', 'understrap' ), $the_theme->get( 'Name' ),  '<a href="'.esc_url( __('http://understrap.com', 'understrap')).'">understrap.com</a>' ); ?> 
-				
+								esc_html__( 'Theme: %1$s by %2$s.', 'understrap' ), $the_theme->get( 'Name' ),  '<a href="'.esc_url( __('http://causeinpiredmedia.com', 'understrap')).'">causeinpiredmedia.com</a>' ); ?>
+
 							(<?php printf( // WPCS: XSS ok.
 							/* translators:*/
 								esc_html__( 'Version: %1$s', 'understrap' ), $the_theme->get( 'Version' ) ); ?>)
@@ -56,4 +75,3 @@ $container = get_theme_mod( 'understrap_container_type' );
 </body>
 
 </html>
-

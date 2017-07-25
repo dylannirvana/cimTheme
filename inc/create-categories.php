@@ -7,7 +7,7 @@ function example_insert_category() {
 		'category',
 		array(
 		  'description'	=> 'This category aligns with the Bootstrap4 UI.',
-		  'slug' 		    => 'newalbum'
+		  'slug' 		    => 'album'
 		)
 	);
 	wp_insert_term(

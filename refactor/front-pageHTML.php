@@ -214,12 +214,6 @@ get_header(); ?>
       <!-- /END THE FEATURETTES -->
 
 
-
-
-
-
-
-
 <?php
 	get_footer();
  ?>

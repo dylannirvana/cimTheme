@@ -1,31 +1,25 @@
 <?php
 /**
- * Template Name: Empty Page Template
- *
- * Template for displaying a page just with the header and footer area and a "naked" content area in between.
- * Good for landingpages and other types of pages where you want to add a lot of custom markup.
- *
  * @package understrap
  */
+ get_header(); ?>
 
-get_header(); ?>
-
+ <!- Bootstrap Templates -->
 <!-- COVER -->
-<?php get_template_part('custom-templates/cover') ?>
+<?php get_template_part('custom-templates/cover'); ?>
 
-<!-- JUMBOTRON -->
-<?php get_template_part('custom-templates/jumbotron') ?>
+<!-- Utility class whites out bg for fixed elements like video, bg img -->
+<div class="site-white">
 
 <!-- CAROUSEL -->
-	<?php get_template_part('custom-templates/carousel') ?>
+<?php get_template_part('custom-templates/carousel'); ?>
 
-	<!-- ALBUM -->
-	<?php get_template_part('custom-templates/album') ?>
+<!-- JUMBOTRON -->
+<?php get_template_part('custom-templates/jumbotron'); ?>
 
-	<!-- DASHBOARD -->
+<!-- ALBUM -->
 
+<!-- END bootstrap templates -->
 
-
-<?php
-	get_footer();
- ?>
+<?php get_footer(); ?>
+</div> <!-- END site-white -->
