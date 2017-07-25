@@ -1,4 +1,4 @@
-## Here are my mods
+## Build modular UI
 1. I am using get_template_part to call custom templates based on common Bootstrap 4 components. These can be composed in any order
 2. The custom components were refactored as wp_queries to posts, pages and categories in the WP UI (database)
 3. SASS variables, partials and mixins control layout and style
@@ -7,8 +7,6 @@
 6. Multiple custom child themes can written as templates for design
 
 TK Much of this can be brought into the customizer, page templates (in the UI) if needed. Other stuff.
-
-## Read about the awesome frameworks that I used below
 
 Travis build: [![Build Status](https://travis-ci.org/holger1411/understrap.svg?branch=master)](https://travis-ci.org/holger1411/understrap) | Start talking: [![Gitter](https://img.shields.io/gitter/room/holger1411/understrap.svg?maxAge=2592000?style=flat-square)](https://gitter.im/holger1411/understrap)
 
