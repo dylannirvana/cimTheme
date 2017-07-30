@@ -14,10 +14,17 @@
 <!-- CAROUSEL -->
 <?php get_template_part('custom-templates/carousel'); ?>
 
+<!-- MARKETING -->
+<?php get_template_part('custom-templates/marketing'); ?>
+
+<!-- FEATURETTES -->
+<?php get_template_part('custom-templates/featurettes'); ?>
+
 <!-- JUMBOTRON -->
 <?php get_template_part('custom-templates/jumbotron'); ?>
 
 <!-- ALBUM -->
+<?php get_template_part('custom-templates/album'); ?>
 
 <!-- END bootstrap templates -->
 

@@ -1,12 +1,12 @@
 ## Build modular UI
-1. I am using get_template_part to call custom templates based on common Bootstrap 4 components. These can be composed in any order
-2. The custom components were refactored as wp_queries to posts, pages and categories in the WP UI (database)
-3. SASS variables, partials and mixins control layout and style
-4. JavaScript includes various common libraries; comment in or out
+1. Use get_template_part to call custom templates based on common Bootstrap 4 components. These can be composed in any order
+2. The custom components were refactored as wp_queries connecting to the WP admin as posts, pages and categories (database)
+3. SASS variables, partials and mixins form a standard platform to control layout and stylebook
+4. JavaScript includes various popular libraries to comment in or out
 5. When activated, the theme populates the WP UI (database) with posts, pages and taxonomies required by the wp_queries
-6. Multiple custom child themes can written as templates for design
+6. Multiple custom child themes can written as templates for additional functionality and design
 
-TK Much of this can be brought into the customizer, page templates (in the UI) if needed. Other stuff.
+This is in addition to what can already be done with page templates and widgets.
 
 Travis build: [![Build Status](https://travis-ci.org/holger1411/understrap.svg?branch=master)](https://travis-ci.org/holger1411/understrap) | Start talking: [![Gitter](https://img.shields.io/gitter/room/holger1411/understrap.svg?maxAge=2592000?style=flat-square)](https://gitter.im/holger1411/understrap)
 

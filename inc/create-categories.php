@@ -19,6 +19,22 @@ function example_insert_category() {
 		)
 	);
 	wp_insert_term(
+		'Carousel',
+		'category',
+		array(
+		  'description'	=> 'This category aligns with the Bootstrap4 UI.',
+		  'slug' 		    => 'marketing'
+		)
+	);
+	wp_insert_term(
+		'Carousel',
+		'category',
+		array(
+		  'description'	=> 'This category aligns with the Bootstrap4 UI.',
+		  'slug' 		    => 'featurettes'
+		)
+	);
+	wp_insert_term(
 		'Cover',
 		'category',
 		array(
@@ -40,6 +56,14 @@ function example_insert_category() {
 		array(
 		  'description'	=> 'This category aligns with the Bootstrap4 UI.',
 		  'slug' 		    => 'jumbotron'
+		)
+	);
+	wp_insert_term(
+		'Jumbotron',
+		'category',
+		array(
+		  'description'	=> 'This category aligns with the Bootstrap4 UI.',
+		  'slug' 		    => 'mumbotron'
 		)
 	);
 }

@@ -9298,7 +9298,7 @@ nav.navbar {
   padding-bottom: 3rem;
   background-color: #f7f7f7;
   z-index: 100;
-  position: absolute;
+  position: relative;
   width: 100%; }
 
 .card {
@@ -9323,7 +9323,8 @@ nav.navbar {
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 #carousel {
-  background-color: white !important; }
+  background-color: white !important;
+  padding-top: 44px; }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -9497,9 +9498,15 @@ body {
     width: 42rem; } }
 
 .wrapper-footer {
+  position: relative;
+  background-color: gray;
+  height: 330px;
   color: #fff; }
   .wrapper-footer a {
     color: #fff; }
+
+#featurettes {
+  padding-top: 44px; }
 
 /*
 * Use existing Bootstrap 4 classes and
