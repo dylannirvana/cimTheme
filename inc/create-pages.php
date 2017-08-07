@@ -70,6 +70,6 @@ If there is an error PostCreator() returns a WP_error object.
 */
 // for ($i=0; $i < 4; $i++) {
 	# code...
-	// PostCreator( 'Album', 'post', 'With a sizable serving of Dolor.', array(8) );
+	PostCreator( 'Kittens', 'post', 'With a sizable serving of Dolor.', array(8) );
 // }
 ?>

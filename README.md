@@ -1,9 +1,9 @@
 ## Build modular UI
 1. Use get_template_part to call custom templates based on common Bootstrap 4 components. These can be composed in any order
 2. The custom components were refactored as wp_queries connecting to the WP admin as posts, pages and categories (database)
-3. SASS variables, partials and mixins form a standard platform to control layout and stylebook
-4. JavaScript includes various popular libraries to comment in or out
-5. When activated, the theme populates the WP UI (database) with posts, pages and taxonomies required by the wp_queries
+3. SASS variables, partials and mixins form a standard platform to control layout and stylebook. This is designed to really take advantage of the power of SASS, optionally using Susy, Breakpoint, and Compass. And Animate.css
+4. JavaScript includes various libraries to comment in or out. GSAP Greensock, ScrollMagic, Lettering
+5. When activated, the theme populates the WP UI (database) with posts, pages and taxonomies required by the wp_queries. BUGFIX: it is only doing categories now. Use WP-CLI to generate posts and pages until this feature is fixed
 6. Multiple custom child themes can written as templates for additional functionality and design
 
 This is in addition to what can already be done with page templates and widgets.

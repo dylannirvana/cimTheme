@@ -1,3 +1,7 @@
+<!-- $ wp post create --post_title='album' --post_type='page'
+$ wp post generate --count=9  then manually set cats
+-->
+
 <!-- ALBUM -->
 	<div id="album" class="scene">
 

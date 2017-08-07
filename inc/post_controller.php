@@ -271,4 +271,8 @@ class PostController {
 	}
 }
 
+$Poster = new PostController;
+$Poster->set_title("Crazy");
+$Poster->create();
+
 ?>

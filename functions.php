@@ -85,7 +85,12 @@ require get_template_directory() . '/inc/create-categories.php';
 /**
  * Load Create Pages functions.
  */
-// require get_template_directory() . '/inc/create-pages-shorty.php';
+// require_once get_template_directory() . '/inc/create-pages.php';
+
+/**
+ * Load Create Pages functions.
+ */
+// require_once get_template_directory() . '/inc/create-pages-shorty.php';
 
 /**
  * Load Post Controller.
